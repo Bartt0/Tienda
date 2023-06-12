@@ -6,9 +6,9 @@
 header{
     display: flex;
     justify-content: space-between;
-    background-color: #333;
+    background-color: #212A3E;
     padding: 1%;
-    margin-bottom: 1%;
+    /* margin-bottom: 0%; */
 }
 
 
@@ -19,13 +19,13 @@ nav{
 .NombreWeb{
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
-    color: #fff;
+    color: #F1F6F9;
 }
 
 nav ul{
     display: flex;
     list-style: none;
-    background-color: #333;
+    /* background-color: #333; */
     padding: 0;
     margin: 0;
 }
@@ -36,13 +36,39 @@ nav li{
 }
 
 nav li a {
-    color: white;
+    color: #F1F6F9;
     display: block;
     text-decoration: none;
     padding: .5em 1em;
 }
 
   nav li a:hover{
-      background: #888;
+      background: #F1F6F9;
       color: #333;
+ }
+ .contenedor{
+     display: flex;
+     background-color: #9BA4B5;
+     align-items: row;
+     flex-wrap: wrap;
+     margin: 0%;
+     padding: 0%;
+ }
+ .items{
+     width: 200px;
+     margin: 1%;
+     padding: 2%;
+ }
+
+ .TituloItems{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #394867;
+    color: #F1F6F9;
+ }
+
+ .imgItems{
+    /* margin: 1% 1% 1% 1%; */
+    width: 200px;
+    height: 200px;
  }
