@@ -46,18 +46,62 @@ nav li a {
       background: #F1F6F9;
       color: #333;
  }
+
  .contenedor{
      display: flex;
-     background-color: #9BA4B5;
+     background-color: #F1F6F9;
      align-items: row;
      flex-wrap: wrap;
      margin: 0%;
      padding: 0%;
  }
+
  .items{
-     width: 200px;
-     margin: 1%;
-     padding: 2%;
+    background-color: #F1F6F9;
+    width: 200px;
+    margin: 1%;
+    padding: 1%;
+    border: 5px solid #9BA4B5;
+    border-radius: 15px;
+ }
+
+ .Precio{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 16px;
+        color: #F1F6F9;
+        font-weight: bold;
+        background-color: #394867;
+        border-radius: 5px;
+        padding: .43em ;
+ }
+
+ .reseña{
+        text-align: justify;
+        font-size: 14px;
+        padding: 1%;
+        font-family:'Comfortaa', cursive;
+ }
+
+ .Botones{
+    border: none;
+    background-color: #394867;
+    color: #F1F6F9;
+    border-radius: 5px;
+    padding: .43em ;
+    font-family: 'Comfortaa', cursive;
+    font-size: 12.2px;
+ }
+
+ .Botones:hover{
+    background-color: #F1F6F9;
+    color: #394867;
+    border-radius: 5px;
+    padding: .43em ;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+    font-size: 12.2px;
+
  }
 
  .TituloItems{
