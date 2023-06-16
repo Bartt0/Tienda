@@ -47,13 +47,17 @@ nav li a {
       color: #333;
  }
 
+ .CompraCarrito{
+    filter: grayscale(200%);
+    width: 50px;
+ }
+
  .contenedor{
      display: flex;
      background-color: #F1F6F9;
      align-items: row;
      flex-wrap: wrap;
-     /* margin: 0%;
-     padding: 0%; */
+ 
  }
 
  .ofertas {
@@ -78,7 +82,7 @@ nav li a {
         color: #F1F6F9;
         font-weight: bold;
         background-color: #394867;
-        border-radius: 5px;
+        border-radius: 55px;
         padding: .43em ;
  }
 
